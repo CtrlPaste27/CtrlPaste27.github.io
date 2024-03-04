@@ -1,0 +1,750 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff0db;
+    overflow-x: hidden;
+}
+
+
+
+.img_logo {
+    width: 40%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #fff0db;
+}
+
+
+
+.nav_lists {
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    padding: 0px 0px 10%;
+    font-size: 1.5rem;
+
+}
+
+.nav_lists li {
+    margin: 10px 15px; 
+}
+
+.nav_lists a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
+}
+
+/*.square-box {
+    width: 300px; 
+    height: 590px; 
+    background-color: #e6e6fa; 
+    box-shadow: 5px 5px #64869c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 20px;
+  }
+
+
+.own_photo {
+    width: 30%;
+    height: 10%;
+    border-radius: 50px;
+}
+*/
+
+.work_section {
+    padding: 0;
+    margin: 0;
+
+}
+
+.work_section h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', serif;
+    padding: 20px 0px 20px 0px;
+    color: #fff0db;
+    background-color: #1D1C1A;
+    font-size: 4rem;
+
+
+}
+
+.nanjing_rd {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.shanghai_skyline {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.traffic_signal {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.neon_lights {
+    width: 50%;
+    height: 50%;
+    float: right;
+    display: flex;
+}
+
+.side_by_side_images {
+    display: flex;
+    justify-content: center; /* This will center the images within the container */
+    align-items: center; /* This will align the images vertically in the center, if they have different heights */
+}
+
+.traffic_signal, .neon_lights {
+    width: 50%; /* Adjust this value as needed to control the size of the images */
+    height: auto; /* This will maintain the aspect ratio of the images */
+    display: block; /* Ensures images are block level for proper spacing */
+}
+
+.about_me {
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.photo_of_me {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+
+.about_me h1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 90px 0px;
+    margin: 0;
+    font-size: 4rem;
+    color:#1D1C1A;
+}
+
+.about_me_text {
+    padding: 16% 0% 11% 0%;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-left: 13%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.about_me_text_more {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: 12%;
+    
+}
+
+.equipment {
+    background-color: #1D1C1A;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.equipment h1 {
+    color: #fff0db;
+    display: block;
+    text-align: center;
+    font-size: 3.1rem;
+    padding: 40px 0 0 0;
+    background-color: #1D1C1A;
+}
+
+.equipment p {
+    color: #fff0db;
+    background-color: #1D1C1A;
+    padding: 10% 0 10% 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer p {
+    padding: 20px 0 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer p:hover {
+    cursor: pointer;
+}
+
+.footer a {
+    color:#1D1C1A
+}
+
+
+.china {
+    background-color: #1D1C1A;
+    height: auto;
+}
+
+.china img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    padding: 0 0 40px 0;
+    background-color: #1D1C1A;
+}
+
+.china h1 {
+    color: #fff0db;
+    background-color: #1D1C1A;
+    display: block;
+    text-align: center;
+    padding: 20px 0 80px 0;
+    font-size: 4rem;
+}
+
+.china img:hover {
+    cursor: pointer;
+}
+
+.qatar img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    padding: 0 0 40px 0;
+}
+
+.qatar h1 {
+    color: #1D1C1A;
+    display: block;
+    text-align: center;
+    padding: 20px 0 80px 0;
+    font-size: 4rem;
+}
+
+.qatar {
+    height: auto;
+}
+
+.qatar img:hover {
+    cursor: pointer;
+}
+
+.europe {
+    background-color: #1D1C1A;
+    height: auto;
+}
+
+.europe img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    padding: 0 0 40px 0;
+    background-color: #1D1C1A;
+}
+
+.europe h1 {
+    color: #fff0db;
+    background-color: #1D1C1A;
+    display: block;
+    text-align: center;
+    padding: 20px 0 80px 0;
+    font-size: 4rem;
+}
+
+.europe img:hover {
+    cursor: pointer;
+}
+
+.contact_page {
+    height: 700px;
+    background-color: #1D1C1A;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_page h1 {
+    font-size: 3rem;
+    color: #fff0db;
+    text-align: center;
+    background-color: #1D1C1A;
+    padding: 100px 0 70px 0;
+}
+
+
+.instagram_link {
+    background-color: #1D1C1A;
+    padding: 0;
+    margin: 0;
+    color:#fff0db;
+    font-size: 2rem;
+}
+
+.instagram_text {
+    background-color: #1D1C1A;
+    color: #fff0db;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 0 0 80px 0;
+}
+
+
+
+.outlook {
+    background-color: #1D1C1A;
+    height: auto;
+    color: #fff0db;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.instagram {
+    background-color: #1D1C1A;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff0db;
+    padding: 0 0 90px 0;
+}
+
+
+
+.shop_header {
+    background-color: #1D1C1A;
+    height: 2000px;
+
+}
+
+.shop_header h1 {
+    color: #fff0db;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #1D1C1A;
+    padding: 60px 0 60px 0;
+}
+.shop_text {
+    background-color: #1D1C1A;
+    text-align: center;
+
+}
+
+.shop_text a {
+    background-color: #1D1C1A;
+    color:#fff0db;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.links {
+    padding: 0px 0 100px 0;
+    background-color: #1D1C1A;
+}
+
+.shop_text h2 {
+    color: #fff0db;
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: #1D1C1A;
+    padding: 0 0 30px 0;
+}
+
+.shop_header p {
+    color: #fff0db;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #1D1C1A;
+    padding: 0 0 100px 0;
+}
+
+/*For Shanghai Skyline*/
+.shanghai {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.shanghai img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/*For Nanjing Road*/
+.nanjing_rd_sky {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.nanjing_rd_sky img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/*For chiemsee_lake*/
+.chiemsee_lake {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.chiemsee_lake img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/*For schafberg mountain*/
+
+.schafberg_mountain {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.schafberg_mountain img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.chiemsee_lake {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.chiemsee_lake img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/*For doha_skyline*/
+
+.doha_skyline {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.doha_skyline img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.chiemsee_lake {
+    position: relative; /* Ensures the positioning context is set to the china div */
+    text-align: center;
+    background-color: #1D1C1A;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of children */
+    width: 80%; /* Adjust width as necessary */
+    margin-left: 10%; /* Center the container */
+    margin-bottom: 40px; /* Space below the container */
+}
+
+.chiemsee_lake img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    display: block; /* Remove any inline behavior */
+    background-color: #1D1C1A;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust size as needed */
+    opacity: 0; /* Hide text initially */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    transition: opacity 0.5s ease; /* Smooth transition for the overlay */
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+
+
+.service_page {
+    height: 590px;
+    background-color: #1D1C1A;
+    padding: 0 0 100px 0;
+
+}
+
+.service_page h1 {
+    background-color: #1D1C1A;
+    color: #fff0db;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.service_page h2 {
+    background-color: #1D1C1A;
+    color: #fff0db;
+    text-align: center;
+    padding: 100px 0 50px 0;
+
+}
+
+.service_page p {
+    background-color: #1D1C1A;
+    color: #fff0db;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 0 10px 0;
+
+}
+
+.qatar_work {
+    background-color: #1D1C1A;
+    height: auto;
+}
+
+.qatar_work img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    padding: 0 0 40px 0;
+    background-color: #1D1C1A;
+}
+
+.qatar_work h1 {
+    color: #fff0db;
+    display: block;
+    text-align: center;
+    padding: 20px 0 80px 0;
+    font-size: 4rem;
+    background-color: #1D1C1A;
+
+}
+
+
+
